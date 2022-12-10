@@ -1,0 +1,67 @@
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-button-green{
+    background-color: hwb(154 22% 20%);
+}
+.bg-button-blue{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+}
+
+.text-color-gb{
+    color: hsl(246, 25%, 77%);
+}
+.text-color-db{
+    color: hsl(249, 10%, 26%);
+}
+.text-color-red{
+    color: hsl(0, 100%, 74%);
+}
+
+.radius-out{
+    border-radius: 10px;
+    border: solid 1px hsl(246, 25%, 77%);
+}
+.radius{
+    border-radius: 5px;
+    border: solid 1px hsl(246, 25%, 77%);
+}
+.hide{
+    display: none;
+}
+.error{
+    color: hsl(0, 100%, 74%);
+    font-size: 0.5em;
+    text-align: right;
+    margin-top: 5px;
+}
+.img-error{
+    position: relative;
+    bottom: 37px;
+    left: 100px;
+}
+.edit-placeholder::placeholder{
+    color: hsl(0, 100%, 74%);
+    font-size: 0.75em;
+}
+input::placeholder{
+    color: hsl(249, 10%, 26%);
+}
+
+@media screen and (min-width: 768px){
+    .centralize{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mini-font{
+        font-size: 0.5em;
+        text-align: center;
+    }
+}
