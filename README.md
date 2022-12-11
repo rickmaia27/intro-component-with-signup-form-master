@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Site on github pages](https://rickmaia27.github.io/intro-component-with-signup-form-master/)
 
 ## My process
 
